@@ -200,9 +200,6 @@ android_agent/
 │           ├── swipe.sh                 # Swipe/scroll
 │           ├── input-text.sh            # Text input
 │           └── key-event.sh             # Key events
-├── .claude/                              # Local dev copies
-│   ├── agents/android-tester.md
-│   └── skills/android-verify/SKILL.md
 └── README.md
 ```
 

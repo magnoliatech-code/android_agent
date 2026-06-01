@@ -13,5 +13,5 @@
 # Shell
 *.log
 
-# Local Claude settings (user-specific)
-.claude/settings.local.json
+# Local Claude directory (dev-only, not part of the plugin)
+.claude/
