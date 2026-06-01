@@ -5,7 +5,8 @@ emulator, inspect the UI, tap and swipe, type text, capture screenshots,
 and read logs — without leaving your editor.
 
 ```
-/verify-android
+/android-verify          (canonical)
+/verify-android          (alias, also works)
 ```
 
 > No external MCP servers or libraries. Just the Android SDK and Python 3.
@@ -47,21 +48,31 @@ screenshot, and report any crashes from logcat.
 
 ## Interactive Example
 
+First, you ask Claude to verify the app. Then you explore interactively.
+
 ```
-You: /verify-android
-🤖:  Emulator ready. APK installed. LoginScreen showing. No crashes.
+Step 1: Quick verify
 
-You: Tap "Sign Up"
-🤖:  Tapped Sign Up. Registration form loaded. Fields: Name, Email, Password.
+  You:  /android-verify
+  Claude: Emulator ready. Installed APK. Launched app.
+          LoginScreen is showing. No crashes in logcat.
+          Screenshot saved.
 
-You: Fill in name as "Test User"
-🤖:  Typed "Test User" into Name field. Done.
+Step 2: Explore interactively — just keep talking
 
-You: Scroll down
-🤖:  Scrolled. "Submit" button now visible.
+  You:  Tap the "Sign Up" button
+  Claude: Tapped. Now on Registration screen.
+          Fields visible: Name, Email, Password, Confirm.
 
-You: Tap Submit
-🤖:  Tapped Submit. Welcome screen shown. No errors.
+  You:  Type "Test User" into the Name field
+  Claude: Focused the Name field and typed "Test User".
+
+  You:  Scroll down
+  Claude: Scrolled. "Submit" button is now visible.
+
+  You:  Tap Submit
+  Claude: Tapped Submit.
+          New screen: "Welcome, Test User!" — No errors.
 ```
 
 ## Prerequisites
