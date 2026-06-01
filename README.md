@@ -180,8 +180,6 @@ specific device. Run any with `-h` for full usage.
 ```
 android_agent/
 ├── marketplace.json                     # Marketplace manifest
-├── .claude-plugin/
-│   └── marketplace.json                 # (synced copy)
 ├── plugins/
 │   └── android-verify/                  # Plugin directory
 │       ├── plugin.json                  # Plugin manifest
