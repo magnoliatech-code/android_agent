@@ -179,27 +179,32 @@ specific device. Run any with `-h` for full usage.
 
 ```
 android_agent/
+├── marketplace.json                     # Marketplace manifest
 ├── .claude-plugin/
-│   ├── marketplace.json             # Marketplace listing
-│   └── plugin.json                  # Plugin manifest
-├── .claude/
-│   ├── agents/
-│   │   └── android-tester.md        # Subagent: the testing expert
-│   └── skills/
-│       └── android-verify/
-│           └── SKILL.md             # Skill: dispatcher entry point
-├── scripts/
-│   ├── emulator-start.sh            # Launch emulator
-│   ├── emulator-status.sh           # Device info
-│   ├── install-apk.sh               # APK installation
-│   ├── screenshot.sh                # Screen capture
-│   ├── get-logs.sh                  # Logcat filtering
-│   ├── dump-ui.sh                   # UI hierarchy parser
-│   ├── find-element.sh              # Element locator
-│   ├── tap.sh                       # Tap interaction
-│   ├── swipe.sh                     # Swipe/scroll
-│   ├── input-text.sh                # Text input
-│   └── key-event.sh                 # Key events
+│   └── marketplace.json                 # (synced copy)
+├── plugins/
+│   └── android-verify/                  # Plugin directory
+│       ├── plugin.json                  # Plugin manifest
+│       ├── skills/
+│       │   └── android-verify/
+│       │       └── SKILL.md             # Skill: dispatcher entry point
+│       ├── agents/
+│       │   └── android-tester.md        # Subagent: the testing expert
+│       └── scripts/
+│           ├── emulator-start.sh        # Launch emulator
+│           ├── emulator-status.sh       # Device info
+│           ├── install-apk.sh           # APK installation
+│           ├── screenshot.sh            # Screen capture
+│           ├── get-logs.sh              # Logcat filtering
+│           ├── dump-ui.sh               # UI hierarchy parser
+│           ├── find-element.sh          # Element locator
+│           ├── tap.sh                   # Tap interaction
+│           ├── swipe.sh                 # Swipe/scroll
+│           ├── input-text.sh            # Text input
+│           └── key-event.sh             # Key events
+├── .claude/                              # Local dev copies
+│   ├── agents/android-tester.md
+│   └── skills/android-verify/SKILL.md
 └── README.md
 ```
 
