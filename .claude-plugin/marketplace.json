@@ -16,7 +16,7 @@
       "author": {
         "name": "magnoliatech"
       },
-      "source": "./android-verify",
+      "source": "./plugins/android-verify",
       "category": "developer-tools",
       "tags": ["android", "emulator", "testing", "adb", "ui-automation"],
       "keywords": ["android", "emulator", "testing", "adb", "screenshot", "logcat"]
