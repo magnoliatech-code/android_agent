@@ -1,18 +1,15 @@
 {
   "name": "magnoliatech-android-tools",
+  "description": "Android development tools for Claude Code — emulator testing, UI automation, and log analysis without leaving your editor.",
+  "version": "1.0.1",
   "owner": {
     "name": "magnoliatech"
-  },
-  "metadata": {
-    "description": "Android development tools for Claude Code — emulator testing, UI automation, and log analysis without leaving your editor.",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
       "name": "android-verify",
       "description": "Android emulator testing agent — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "magnoliatech"
       },

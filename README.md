@@ -179,10 +179,12 @@ specific device. Run any with `-h` for full usage.
 
 ```
 android_agent/
-├── marketplace.json                     # Marketplace manifest
+├── .claude-plugin/
+│   └── marketplace.json                 # Marketplace manifest
 ├── plugins/
 │   └── android-verify/                  # Plugin directory
-│       ├── plugin.json                  # Plugin manifest
+│       ├── .claude-plugin/
+│       │   └── plugin.json              # Plugin manifest
 │       ├── skills/
 │       │   └── android-verify/
 │       │       └── SKILL.md             # Skill: dispatcher entry point

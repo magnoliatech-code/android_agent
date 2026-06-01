@@ -1,0 +1,12 @@
+{
+  "name": "android-verify",
+  "description": "Android emulator testing agent — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs. Free the developer from manually testing Android app changes.",
+  "version": "1.0.1",
+  "author": {
+    "name": "magnoliatech"
+  },
+  "homepage": "https://github.com/magnoliatech-code/android_agent",
+  "repository": "https://github.com/magnoliatech-code/android_agent",
+  "license": "MIT",
+  "keywords": ["android", "emulator", "testing", "adb", "screenshot", "logcat", "ui-automation"]
+}
