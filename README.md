@@ -15,7 +15,8 @@ and read logs — without leaving your editor.
 
 ```bash
 # 1. Install the plugin in Claude Code
-/plugin install android-verify@magnoliatech-code/android_agent
+/plugin marketplace add magnoliatech-code/android_agent
+/plugin install android-verify@magnoliatech-android-tools
 ```
 
 ```bash
