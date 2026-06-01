@@ -5,7 +5,8 @@
   },
   "metadata": {
     "description": "Android development tools for Claude Code — emulator testing, UI automation, and log analysis without leaving your editor.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
   },
   "plugins": [
     {
@@ -15,7 +16,7 @@
       "author": {
         "name": "magnoliatech"
       },
-      "source": ".",
+      "source": "./plugins/android-verify",
       "category": "developer-tools",
       "tags": ["android", "emulator", "testing", "adb", "ui-automation"],
       "keywords": ["android", "emulator", "testing", "adb", "screenshot", "logcat"]
