@@ -1,37 +1,8 @@
 {
   "name": "android-verify",
+  "description": "Android emulator testing agent — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs. Free the developer from manually testing Android app changes.",
   "version": "1.0.0",
-  "description": "Android emulator testing agent for Claude Code — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs. Free the developer from manually testing and verifying Android app changes.",
-  "author": "magnoliatech",
-  "license": "MIT",
-  "homepage": "https://github.com/magnoliatech-code/android_agent",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/magnoliatech-code/android_agent"
-  },
-  "source": {
-    "type": "git",
-    "url": "https://github.com/magnoliatech-code/android_agent"
-  },
-  "keywords": [
-    "android",
-    "emulator",
-    "testing",
-    "adb",
-    "ui-automation",
-    "screenshot",
-    "logcat"
-  ],
-  "components": {
-    "skills": [
-      ".claude/skills/android-verify"
-    ],
-    "agents": [
-      ".claude/agents/android-tester"
-    ]
-  },
-  "requirements": {
-    "android-sdk": ">=34.0",
-    "python3": ">=3.8"
+  "author": {
+    "name": "magnoliatech"
   }
 }
