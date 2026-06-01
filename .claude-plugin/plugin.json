@@ -7,7 +7,7 @@
   "homepage": "https://github.com/magnoliatech-code/android_agent",
   "repository": {
     "type": "git",
-    "url": "git@github.com:magnoliatech-code/android_agent.git"
+    "url": "https://github.com/magnoliatech-code/android_agent"
   },
   "source": {
     "type": "git",
