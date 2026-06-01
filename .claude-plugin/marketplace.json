@@ -11,12 +11,12 @@
   "plugins": [
     {
       "name": "android-verify",
-      "description": "Android emulator testing agent — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs. Verify app changes without manual testing.",
+      "description": "Android emulator testing agent — install APKs, inspect UI, tap, swipe, type text, take screenshots, and read logs.",
       "version": "1.0.0",
       "author": {
         "name": "magnoliatech"
       },
-      "source": "./plugins/android-verify",
+      "source": "./android-verify",
       "category": "developer-tools",
       "tags": ["android", "emulator", "testing", "adb", "ui-automation"],
       "keywords": ["android", "emulator", "testing", "adb", "screenshot", "logcat"]
