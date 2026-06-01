@@ -1,6 +1,9 @@
 {
   "name": "magnoliatech-android-tools",
   "description": "Android development tools for Claude Code — emulator testing, UI automation, and log analysis without leaving your editor.",
+  "owner": {
+    "name": "magnoliatech"
+  },
   "plugins": [
     {
       "path": ".",
